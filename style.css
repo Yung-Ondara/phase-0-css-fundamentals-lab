@@ -3,3 +3,58 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Center the text inside the header */
+#main-header {
+  font-size: 22px;
+  text-align: center; 
+}
+/* Center the only image on the page */
+img {
+  display: block;
+  margin: 0 auto;
+}
+/* Center the navigation links */
+nav {
+  text-align: center;
+}
+
+/* Style all <a> tags within the navbar */
+nav a {
+  padding: 10px;
+  background-color: grey;
+  display: inline-block; 
+  text-decoration: none; 
+  color: white; 
+  border-radius: 5px; 
+  margin: 5px; 
+}
+/* Style the image caption */
+figcaption {
+  font-size: 14px; 
+  text-align: center; 
+  color: #333; 
+  margin-top: 5px; 
+}
+/* Style the <p> elements inside #featured-property */
+#featured-property p {
+  width: 800px; 
+  text-align: center; 
+  margin: 20px auto; 
+  line-height: 1.6; 
+}
+/* Style the #details section */
+#details {
+  overflow: hidden; 
+  text-align: center; 
+}
+
+/* Style each <div> inside #details */
+#details div {
+  float: left; 
+  width: 30%; 
+  margin: 1%; 
+  padding: 10px; 
+  background-color: #f0f0f0; 
+  border-radius: 5px; 
+}
+
